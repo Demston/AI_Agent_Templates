@@ -1,0 +1,19 @@
+_manual.docx
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Кэш Python (байт-код)
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Настройки IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+
+# Файлы окружения с секретами (пароли, API-ключи)
+.env
