@@ -36,5 +36,7 @@ if response.status_code == 200:
     ai_answer = result["message"]["content"]
     print("\n📝 ОТВЕТ НЕЙРОСЕТИ:")
     print(ai_answer)
+    with open("output/vba_audit_result.txt", "w", encoding="utf-8") as out_file:
+        out_file.write(str(ai_answer))
 else:
     print(f"Ошибка сервера Ollama: {response.status_code}")
