@@ -24,7 +24,7 @@ ollama run qwen2.5:1.5b
 pip install crewai pyyaml
 ```
 
-3. Положить нужный кусок кода в файл `legacy_code.vba` и запустить скрипт:
+3. Положить нужный кусок кода в файл `legacy_code.vba` (папка input) и запустить скрипт:
 ```bash
 python crew_yaml_analyst.py
 ```
